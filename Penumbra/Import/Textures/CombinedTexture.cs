@@ -37,19 +37,6 @@ public partial class CombinedTexture : IDisposable
     public bool IsLeftCopy
         => _mode == Mode.LeftCopy;
 
-    public void Draw(TextureManager textures, Vector2 size)
-    {
-        if (_mode == Mode.Custom && !_centerStorage.IsLoaded)
-        {
-            var (width, height)        = CombineImage();
-            _centerStorage.TextureWrap = textures.LoadTextureWrap(_centerStorage.RgbaPixels, width, height);
-        }
-
-        if (_current != null)
-            TextureDrawer.Draw(_current, size);
-    }
-
-
     public void SaveAsPng(TextureManager textures, string path)
     {
         if (!IsLoaded || _current == null)

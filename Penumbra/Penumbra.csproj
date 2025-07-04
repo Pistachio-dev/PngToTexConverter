@@ -15,12 +15,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Remove="Mods\Subclasses\**" />
-      <EmbeddedResource Remove="Mods\Subclasses\**" />
-      <None Remove="Mods\Subclasses\**" />
-    </ItemGroup>
-
-    <ItemGroup>
         <Content Include="tsmLogo.png">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
