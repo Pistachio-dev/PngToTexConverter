@@ -15,6 +15,14 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <None Include="lib\DirectXTexC.dll" />
+        <None Include="lib\OtterTex.dll">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="lib\DirectXTexC.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>DirectXTexC.dll</TargetPath>
+        </None>
         <None Include="Penumbra.json">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
@@ -40,6 +48,7 @@
         <Reference Include="OtterTex.dll">
             <HintPath>lib\OtterTex.dll</HintPath>
         </Reference>
+
     </ItemGroup>
 
     <ItemGroup>
