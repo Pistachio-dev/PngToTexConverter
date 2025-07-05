@@ -15,13 +15,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="tsmLogo.png">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
-        <None Include="lib\DirectXTexC.dll">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <TargetPath>DirectXTexC.dll</TargetPath>
-        </None>
         <None Include="Penumbra.json">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
