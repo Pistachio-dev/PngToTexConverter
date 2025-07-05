@@ -60,10 +60,6 @@
 
     <ItemGroup>
         <ProjectReference Include="..\OtterGui\OtterGui.csproj" />
-        <ProjectReference Include="..\Penumbra.CrashHandler\Penumbra.CrashHandler.csproj" />
-        <ProjectReference Include="..\Penumbra.GameData\Penumbra.GameData.csproj" />
-        <ProjectReference Include="..\Penumbra.Api\Penumbra.Api.csproj" />
-        <ProjectReference Include="..\Penumbra.String\Penumbra.String.csproj" />
     </ItemGroup>
 
     <Target Name="GetGitHash" BeforeTargets="GetAssemblyVersion" Returns="InformationalVersion">
