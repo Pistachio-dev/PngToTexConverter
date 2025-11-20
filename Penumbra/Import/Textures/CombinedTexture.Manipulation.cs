@@ -1,4 +1,3 @@
-using ImGuiNET;
 using SixLabors.ImageSharp.PixelFormats;
 
 namespace Penumbra.Import.Textures;
